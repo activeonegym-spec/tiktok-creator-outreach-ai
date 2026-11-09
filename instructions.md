@@ -1,31 +1,59 @@
-# AI Creator Outreach Instructions
+# AI TikTok Creator Outreach Instructions
 
-TARGET COUNTRIES:
-1. United States
-2. Canada
-3. United Kingdom
+## TARGET COUNTRIES
+- United States
+- Canada
+- United Kingdom
 
-TARGET NICHE:
+## TARGET NICHE
 - Gym
 - Fitness
 - Workout
 - Activewear
 
-TARGET AGE:
-20–30 years.
-Only use publicly verified age information.
-Never guess age.
+## CREATOR REQUIREMENTS
+- Target real human creators only.
+- Exclude AI-generated people and fake AI profiles.
+- Exclude AI-generated videos and synthetic content.
+- Prefer creators who regularly publish original videos.
+- Target age: 20–30 years.
+- Only accept age information that is publicly verified.
+- Never guess age from appearance.
+- Do not target duplicate or previously contacted accounts.
 
-MAIN TASK:
-Find public TikTok fitness creators
-who may be interested in brand collaborations.
+## VIDEO REQUIREMENTS
+- Find real fitness and workout videos.
+- Prefer active accounts with genuine engagement.
+- Exclude suspicious engagement and fake profiles.
+- Save the original video URL.
 
-COMMENT RULES:
+## COMMENT RULES
 - Read comments.txt.
-- Use only my approved comments.
-- Select a relevant comment for each video.
-- Do not invent new comments.
-- Avoid duplicate creators.
-- Save creator usernames and video URLs.
-- Prepare comments for my approval.
-- Never bypass TikTok restrictions.
+- Use only my 25 approved comments.
+- Preserve the exact wording.
+- Do not invent or rewrite comments.
+- Follow comments in numerical order.
+- After comment 25, restart from comment 1.
+- Track which comment was selected.
+
+## CREATOR TRACKING
+Save:
+- TikTok username
+- Video URL
+- Country
+- Niche
+- Publicly verified age status
+- Selected comment
+- Contact status
+- Date contacted
+
+## OUTREACH LIMIT
+- Track progress toward 125 approved outreach interactions.
+- Prevent duplicate creator outreach.
+- Prepare comments for manual approval.
+- Never automatically publish repetitive comments.
+- Never bypass TikTok restrictions or platform limits.
+
+## MAIN OBJECTIVE
+Build a reliable creator discovery and outreach assistant
+for genuine fitness creators and brand collaborations.
