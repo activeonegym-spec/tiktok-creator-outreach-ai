@@ -1,0 +1,32 @@
+
+name: Run Comment Generator
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-comments:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate 10 comment drafts
+        run: python comment_generator.py
+
+      - name: Save generated drafts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add comment_queue.csv outreach_state.json
+          git diff --cached --quiet || git commit -m "Generate comment drafts"
+          git push
